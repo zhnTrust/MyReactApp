@@ -6,6 +6,10 @@
 
 module.exports = {
   siteMetadata: {
-    title: "Gatsby"
-  }
+    title: "App of Zhangneng",
+    description: "Description from siteMetadata",
+    keywords:
+      "react courses, react for designers, ios develop, sketch app, swift app courses, arkit 2, after effects, create sketch plugin"
+  },
+  plugins: ["gatsby-plugin-react-helmet"]
 }
